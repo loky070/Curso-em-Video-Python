@@ -1,0 +1,5 @@
+ex056------------ex065
+
+While padrão, até quando...
+
+'while not in' é interessante, 'Se não estiver em algo'

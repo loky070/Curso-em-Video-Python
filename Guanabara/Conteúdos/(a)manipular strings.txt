@@ -1,0 +1,53 @@
+ex022--------ex027
+
+Coisas pra anotar:
+ 
+////////////////IMPORTANTE////////////////////////////
+f"{valor:caractereDEpreenchimento_alinhamento_largura}"
+//////////////////////////////////////////////////////
+
+print(f'{'BATATA':=^20}')
+caractere de preenchimento = = (igual a igual kkkkk)
+alinhamento = ^
+largura = 20
+
+
+
+(
+lista de preços de produto quando precisar:
+
+for x in range(len(listagem)//2):
+    print(f'{listagem[x + y]:.<31}R${listagem[x + y + 1]:>7.2f}')
+    y += 1
+print('-'*40)
+
+)
+
+
+
+len(frase): mostra a quantidade de caractere da variável 'frase'
+
+frase.count(x ou 'x'): vai contar o que tiver dentro das aspas(esse conta)
+
+frase.find(): vai mostrar em qual casa começou aquilo que vc colocou(esse acha)
+
+'Curso' in frase: True ou False
+
+frase.replace('Python','Android'): troca o primeiro pelo segundo
+
+frase.upper(): TUDO MAIÚSCULO
+
+frase.lower(): tudo minúsculo
+
+frase.capitalize(): Apenas a primeira letra da frase inteira!!!!! fica em maiúscula
+
+frase.title(): Primeira Letra De Cada Palavra Em Maiúscula
+
+frase.strip(): Tira espaços do começo e fim
+
+frase.rstrip(): Tira só os espaços da direita
+
+frase.lstrip(): Tira só os espaços da esquerda
+
+frase.split(): divide as palavras pra cada uma virar uma. Ex: "Curso" "em" "vídeo" cada
+letra começa o 0. E cada palavra vai ter um valor de 0 até quantas tiver

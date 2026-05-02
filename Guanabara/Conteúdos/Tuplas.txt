@@ -1,0 +1,11 @@
+ex072------------ex077
+
+FINALMENTEEEEEEEEEEEEE
+Variáveis Simples: as que só cabe uma coisa, que tamo usando desdo começo
+
+Variáveis Compostas: Tuplas,Listas,Dicionários (cabem mais coisas).
+
+hoje nós iremos ver sobre Tuplas
+
+
+

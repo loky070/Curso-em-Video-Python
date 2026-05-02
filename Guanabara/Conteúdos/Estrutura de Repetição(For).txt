@@ -1,0 +1,3 @@
+ex046------------ex056
+
+É 'for x in range(y)', tu já sabe

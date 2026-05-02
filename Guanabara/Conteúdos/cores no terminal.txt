@@ -1,0 +1,37 @@
+eu fiquei usando em vários exercícios
+
+
+TÁ eu tenho 99% de certeza que deve
+ter outra forma, mas bora pelo do
+guanaba.
+pra deixar salvo: 
+\
+
+pra fzr: 
+\033[m
+
+ex:
+\033[0;33;44m
+
+style;text;back
+
+style:
+0 None
+1 Bold (negrito)
+4 Underline (sublinhado)
+7 Negative (inverte)
+
+text:
+30-Preto
+31-Vermelho
+32-Verde
+33-Amarelo
+34-Azul
+35-Roxo
+36-Ciano
+37-Branco
+RESET-39
+
+back:
+40---47
+RESET-49

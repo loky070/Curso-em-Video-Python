@@ -1,0 +1,18 @@
+ex090------------ex095
+
+
+usa {}
+em vez de ter um índice numérico começando de 0, ele usa palavras
+
+>>>>>dados = {'nome':'Pedro', 'idade':25}
+>>>>>print(dados['nome'])
+ 
+pra dicionário, append não funciona, usa-se assim:
+>>>>>dados['sexo'] ='M'
+
+pra apagar coisa dentro do dict usa del
+
+>>>>>del dados['idade']
+
+podemos colocar dicionários dentro de listas e por ai vai
+(ai nesse caso a gente usa o append, mas pra ADICIONAR o dicionário na LISTA)

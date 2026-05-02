@@ -1,0 +1,33 @@
+ex078------------ex083
+
+Próxima variável composta: Listas
+FINALMENTEEEEEEEEEEEEEEEEEE
+
+
+lista = ['Biscoito']
+lista = list()
+
+>>>lista.append('Sorvete')  --- adiciona um item
+
+lista = ['Biscoito','Sorvete']
+
+>>>lista.insert(0,'Chocolate') --- adiciona um item na posição desejada e afasta pro lado os outros itens
+
+lista = ['Chocolate','Biscoito','Sorvete']
+
+>>>del lista[1] --- apaga pelo índice
+>>>lista.pop(1) --- geralmente utilizado pra apagar o último elemento, lista.pop()
+>>>lista.remove('Biscoito') --- apaga pelo valor !!!-começa do começo e vai até encontrar o primeiro elemento(se tiver dois iguais, o mais longe não vai ser apagado, apenas o primeiro)
+
+lista = ['Chocolate','Sorvete']
+
+>>>valores = list(range(4,11))  --- cria uma lista de 4 até 10 (mais pra facilitar)
+valortes = [4,5,6,7,8,9,10]
+
+numeros = [5,3,7,0,2,9,1,6]
+>>>numeros.sort()   --- deixa os valores em ordem
+numeros = [0,1,2,3,5,6,7,9]
+>>>numeros.sort(reverse=True)  --- deixa os valores em ordem contrária
+numeros = [9,7,6,5,3,2,1,0]
+>>>len(numeros) = 8 --- conta pela quantidade mesmo, não por índice
+

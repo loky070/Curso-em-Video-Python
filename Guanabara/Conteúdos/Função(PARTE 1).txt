@@ -1,0 +1,3 @@
+ex096------------ex0100
+
+def serve pra criar um código que vc vai reutilizá-lo

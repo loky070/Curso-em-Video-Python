@@ -1,0 +1,4 @@
+ex084------------ex089
+
+
+lista.clear() --- limpo a lista,simples
