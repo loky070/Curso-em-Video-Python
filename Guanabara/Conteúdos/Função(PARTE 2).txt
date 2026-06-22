@@ -1,0 +1,25 @@
+ex101------------ex106
+
+tem como usar help no console e vai abrir uma abinha que tu digita o comando e aparece oq
+o comando faz
+
+outras formas:
+>>>help(print)
+
+>>>print(input.__doc__)
+
+==== DOCSTRING ====
+
+String de documento para explicar como funciona uma função(def).
+Vem na primeira linha de uma def e fica dentro de 3 aspas
+
+==== Parâmetros Opcionais ====
+
+tu coloca um valor zero pra um parâmetro, ai caso não dê o valor pra ela, vai valer oq vc deu
+
+==== Escopo de Variável ====
+
+É aquilo de Variável Local e Variável Global
+
+==== Retorno de Valores ====
+retorna valores kkkkkkk
