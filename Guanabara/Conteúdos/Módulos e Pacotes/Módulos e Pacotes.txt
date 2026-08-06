@@ -1,0 +1,35 @@
+ex107------------ex112
+
+Modularização: os sistemas estavam cada vez maiores e precisavam de uma forma de dividí-los para legibilidade e facilitar a manutenção
+
+todo arquivo.py pode ser potencialmente um Módulo
+
+é o "import", tu coloca as def em outro arquivo e dps faz
+
+"import uteis" -- mais recomendada
+
+ai pra usar as def tu coloca
+
+uteis.nomedadef()
+
+ou
+
+"from uteis import fatorial, dobro"
+
+ai só coloca
+
+"nomedadef()"
+
+
+================================
+
+agora é sobre Pacotes
+
+quando os módulos não satisfazem mais por ficarem mt grande, a solução é os pacotes
+(algumas linguagens de programação chamam de Biblioteca)
+
+tu separa os módulos por assuntos
+
+dentro de um projeto python, toda pasta é considerado um Pacote
+
+é literalmente só colocar dentro de pasta
