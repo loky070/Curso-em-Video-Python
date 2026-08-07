@@ -1,7 +1,7 @@
-#pelo oq ele disse, tinha que ser separado essa parte de módulos, ai fiz uma pasta só pra ela
+from uteis import numeros
 
 num = int(input('Digite um valor: '))
-fat = uteis.fatorial(num)
+fat = numeros.fatorial(num)
 
 print(f'O fatorial de {num} é {fat}')
-print(f'O dobro de {num} é {uteis.dobro(num)}')
+print(f'O dobro de {num} é {numeros.dobro(num)}')
