@@ -4,18 +4,19 @@ from time import sleep
 
 arq = 'cursoemvideo.txt'
 
-if arquivoExiste(arq):
-    print('EXISTE')
-else:
-    print('NÃO EXISTE')
+if not arquivoExiste(arq):
+    criarArquivo(arq)
 
 while True:
     resposta = menu(['Ver pessoa cadastrada', 'Cadastrar nova pessoa', 'Sair do sistema'])
     if resposta == 1 :
-        cabeçalho('opção 1')
-
+        # opção de listar o conteúdo de um arquivo
+        lerArquivo(arq)
     elif resposta == 2:
         cabeçalho('opção 2')
+        nome = str(input('Nome: '))
+        idade = leiaInt('Idade: ')
+        cadastrar(arq,nome,idade)
 
     elif resposta == 3:
         cabeçalho('Saindo do sistema... Até logo!')
