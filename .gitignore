@@ -7,3 +7,6 @@ __pycache__/
 # O exercício 021 toca um arquivo de áudio local. O mp3 em si não vai para o
 # repositório: é obra de terceiro e não é meu para redistribuir.
 *.mp3
+
+# Projeto do vídeo de apresentação: pesa alguns MB e é regenerável.
+brag-output/

@@ -1,4 +1,4 @@
-# Curso em Vídeo — Python 3
+# Curso em Vídeo Python 3
 
 Acompanhamento do curso de Python 3 do Gustavo Guanabara, do Curso em Vídeo. O repositório
 guarda as anotações de cada aula e a resolução dos exercícios, organizados na mesma divisão em
@@ -46,7 +46,7 @@ pastas com vários arquivos, porque as aulas passam a tratar de módulos e pacot
 
 Conteúdo que não faz parte do curso.
 
-**Sistema de estoque** (`Extras/Sistema de estoque/apresentar.py`) — exercício extra de console
+**Sistema de estoque** (`Extras/Sistema de estoque/apresentar.py`). É um exercício extra de console
 para uma loja de artigos esportivos: login, cadastro, edição e exclusão de produtos, controle de
 estoque com limites mínimo e máximo, cadastro de usuários e registro de venda. Roda em memória,
 sem persistência.
@@ -59,8 +59,10 @@ Os exercícios usam só a biblioteca padrão do Python, com uma exceção. Rode 
 python "Mundo 1 - Fundamentos/Exercícios/ex001.py"
 ```
 
-A partir do exercício 107 as soluções são pastas: entre na pasta e rode o `teste.py` ou o
-`sistema.py` de dentro dela.
+A partir do exercício 107 as soluções são pastas: o que se executa é o `teste.py` ou o
+`sistema.py` de dentro delas. Funciona de qualquer diretório, o Python resolve os imports a
+partir da pasta do próprio script, e os exercícios que leem ou gravam arquivo fazem o mesmo com
+os caminhos.
 
 ### A exceção: exercício 021
 
@@ -70,6 +72,6 @@ O `ex021.py` toca um arquivo de áudio e é o único que depende de biblioteca e
 pip install pygame
 ```
 
-O mp3 não está versionado — é obra de terceiro, e distribuir não é da minha alçada. Para rodar,
+O mp3 não está versionado, é obra de terceiro, e distribuir não é da minha alçada. Para rodar,
 coloque qualquer arquivo de áudio como `ex021.mp3`, na mesma pasta do script. O caminho é
 resolvido a partir da localização do próprio arquivo, então ele funciona de qualquer diretório.

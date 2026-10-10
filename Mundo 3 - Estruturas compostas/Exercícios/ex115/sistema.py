@@ -1,8 +1,9 @@
 from lib.interface import *
 from lib.arquivo import *
 from time import sleep
+import os
 
-arq = 'cursoemvideo.txt'
+arq = os.path.join(os.path.dirname(__file__), 'cursoemvideo.txt')
 
 if not arquivoExiste(arq):
     criarArquivo(arq)
