@@ -4,6 +4,9 @@ Acompanhamento do curso de Python 3 do Gustavo Guanabara, do Curso em Vídeo. O 
 guarda as anotações de cada aula e a resolução dos exercícios, organizados na mesma divisão em
 Mundos que o curso usa.
 
+<!-- VÍDEO -->
+https://github.com/user-attachments/assets/945b725d-c9a0-4675-9b2f-96bb193c71b7
+
 [Playlist do curso no YouTube](https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0)
 
 ## Progresso
