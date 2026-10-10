@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.venv/
+
+# O exercício 021 toca um arquivo de áudio local. O mp3 em si não vai para o
+# repositório: é obra de terceiro e não é meu para redistribuir.
+*.mp3
